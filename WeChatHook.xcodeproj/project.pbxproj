@@ -7,11 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B20535B81EBCB0680046FB0F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B20535B71EBCB0680046FB0F /* UIKit.framework */; };
+		B20535BA1EBCB08E0046FB0F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B20535B91EBCB08E0046FB0F /* CFNetwork.framework */; };
+		B20535BC1EBCB0A50046FB0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B20535BB1EBCB0A50046FB0F /* CoreGraphics.framework */; };
+		B20535BE1EBCB0C00046FB0F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B20535BD1EBCB0C00046FB0F /* QuartzCore.framework */; };
+		B20535C11EBCB1280046FB0F /* FishConfigurationCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = B20535BF1EBCB1280046FB0F /* FishConfigurationCenter.h */; };
+		B20535C21EBCB1280046FB0F /* FishConfigurationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = B20535C01EBCB1280046FB0F /* FishConfigurationCenter.m */; };
 		B2D774E51EBC5CC5004EB6BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2D774E41EBC5CC5004EB6BC /* Foundation.framework */; };
 		B2D774EF1EBC5CC5004EB6BC /* WeChatHook.mm in Sources */ = {isa = PBXBuildFile; fileRef = B2D774EE1EBC5CC5004EB6BC /* WeChatHook.mm */; };
+		B2D774FA1EBC7C9E004EB6BC /* Cycript.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2D774F91EBC7C9E004EB6BC /* Cycript.framework */; };
+		B2D774FC1EBC7CB3004EB6BC /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2D774FB1EBC7CB3004EB6BC /* JavaScriptCore.framework */; };
+		B2D774FE1EBC7CBF004EB6BC /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B2D774FD1EBC7CBF004EB6BC /* libsqlite3.0.tbd */; };
+		B2D775001EBC7CCD004EB6BC /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B2D774FF1EBC7CCD004EB6BC /* libstdc++.6.0.9.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B20535B71EBCB0680046FB0F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B20535B91EBCB08E0046FB0F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		B20535BB1EBCB0A50046FB0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B20535BD1EBCB0C00046FB0F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B20535BF1EBCB1280046FB0F /* FishConfigurationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FishConfigurationCenter.h; sourceTree = "<group>"; };
+		B20535C01EBCB1280046FB0F /* FishConfigurationCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FishConfigurationCenter.m; sourceTree = "<group>"; };
 		B2D774E11EBC5CC5004EB6BC /* WeChatHook.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = WeChatHook.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2D774E41EBC5CC5004EB6BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B2D774E91EBC5CC5004EB6BC /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
@@ -20,6 +36,10 @@
 		B2D774ED1EBC5CC5004EB6BC /* WeChatHook-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WeChatHook-Prefix.pch"; sourceTree = "<group>"; };
 		B2D774EE1EBC5CC5004EB6BC /* WeChatHook.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = WeChatHook.mm; sourceTree = "<group>"; };
 		B2D774F31EBC5CC5004EB6BC /* WeChatHook.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = WeChatHook.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/WeChatHook.plist; sourceTree = "<group>"; };
+		B2D774F91EBC7C9E004EB6BC /* Cycript.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cycript.framework; path = WeChatHook/Cycript.framework; sourceTree = "<group>"; };
+		B2D774FB1EBC7CB3004EB6BC /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		B2D774FD1EBC7CBF004EB6BC /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		B2D774FF1EBC7CCD004EB6BC /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,7 +47,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B20535BE1EBCB0C00046FB0F /* QuartzCore.framework in Frameworks */,
+				B20535BC1EBCB0A50046FB0F /* CoreGraphics.framework in Frameworks */,
+				B20535BA1EBCB08E0046FB0F /* CFNetwork.framework in Frameworks */,
+				B20535B81EBCB0680046FB0F /* UIKit.framework in Frameworks */,
+				B2D775001EBC7CCD004EB6BC /* libstdc++.6.0.9.tbd in Frameworks */,
+				B2D774FE1EBC7CBF004EB6BC /* libsqlite3.0.tbd in Frameworks */,
+				B2D774FC1EBC7CB3004EB6BC /* JavaScriptCore.framework in Frameworks */,
 				B2D774E51EBC5CC5004EB6BC /* Foundation.framework in Frameworks */,
+				B2D774FA1EBC7C9E004EB6BC /* Cycript.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +82,14 @@
 		B2D774E31EBC5CC5004EB6BC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B20535BD1EBCB0C00046FB0F /* QuartzCore.framework */,
+				B20535BB1EBCB0A50046FB0F /* CoreGraphics.framework */,
+				B20535B91EBCB08E0046FB0F /* CFNetwork.framework */,
+				B20535B71EBCB0680046FB0F /* UIKit.framework */,
+				B2D774FF1EBC7CCD004EB6BC /* libstdc++.6.0.9.tbd */,
+				B2D774FD1EBC7CBF004EB6BC /* libsqlite3.0.tbd */,
+				B2D774FB1EBC7CB3004EB6BC /* JavaScriptCore.framework */,
+				B2D774F91EBC7C9E004EB6BC /* Cycript.framework */,
 				B2D774E41EBC5CC5004EB6BC /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -63,6 +99,8 @@
 			isa = PBXGroup;
 			children = (
 				B2D774EE1EBC5CC5004EB6BC /* WeChatHook.mm */,
+				B20535BF1EBCB1280046FB0F /* FishConfigurationCenter.h */,
+				B20535C01EBCB1280046FB0F /* FishConfigurationCenter.m */,
 				B2D774E71EBC5CC5004EB6BC /* Package */,
 				B2D774EB1EBC5CC5004EB6BC /* Supporting Files */,
 			);
@@ -127,6 +165,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B20535C11EBCB1280046FB0F /* FishConfigurationCenter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2D774EF1EBC5CC5004EB6BC /* WeChatHook.mm in Sources */,
+				B20535C21EBCB1280046FB0F /* FishConfigurationCenter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,6 +255,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
 				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(iOSOpenDevPath)/frameworks/**",
@@ -245,6 +286,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = YES;
+				ENABLE_BITCODE = NO;
 				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(iOSOpenDevPath)/frameworks/**",
@@ -271,6 +313,11 @@
 				DEVELOPMENT_TEAM = WVNTC9QA38;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WeChatHook",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WeChatHook/WeChatHook-Prefix.pch";
 				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
@@ -292,6 +339,11 @@
 				DEVELOPMENT_TEAM = WVNTC9QA38;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WeChatHook",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WeChatHook/WeChatHook-Prefix.pch";
 				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
@@ -325,6 +377,7 @@
 				B2D774F81EBC5CC5004EB6BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
